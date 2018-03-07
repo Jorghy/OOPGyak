@@ -2,8 +2,6 @@
 public class AlkalmazottHasznalo {
 	public static void main(String[] args) {
 		
-		Alkalmazott alkalmazott = new Alkalmazott();
-		Alkalmazott masik = new Alkalmazott();
 		Alkalmazott[] alkalmazottak = new Alkalmazott[5];
 		
 		/*
@@ -27,7 +25,7 @@ public class AlkalmazottHasznalo {
 			
 		}
 		
-		alkalmazottak[legmagasabb].toString();
+		System.out.println("A legmagasabb fizetesu dolgozo adatai: "+alkalmazottak[legmagasabb]);
 
 	}
 
