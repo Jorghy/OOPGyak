@@ -1,12 +1,52 @@
 package oop4gyakhazi;
 
 public class Szemely {
-		String name;
-		String makeup;
-		int weight;
-		double height;
-		double tti;
+		private String name;
+		private String makeup;
+		private int weight;
+		private double height;
+		private double tti;
 		
+		public String getName() {
+			return name;
+		}
+
+		public void setName(String name) {
+			this.name = name;
+		}
+
+		public String getMakeup() {
+			return makeup;
+		}
+
+		public void setMakeup(String makeup) {
+			this.makeup = makeup;
+		}
+
+		public int getWeight() {
+			return weight;
+		}
+
+		public void setWeight(int weight) {
+			this.weight = weight;
+		}
+
+		public double getHeight() {
+			return height;
+		}
+
+		public void setHeight(double height) {
+			this.height = height;
+		}
+
+		public double getTti() {
+			return tti;
+		}
+
+		public void setTti(double tti) {
+			this.tti = tti;
+		}
+
 		public void Tti(int weight, double height) {
 			tti = weight/(height*height);
 		}

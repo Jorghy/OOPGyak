@@ -5,12 +5,12 @@ public class SzemelyHasznalo {
 			
 			Szemely szemely = new Szemely();
 			
-			szemely.name = "Kiss Géza";
-			szemely.height = 1.70;
-			szemely.weight = 70;
+			szemely.setName("Kiss Géza");
+			szemely.setHeight(1.70);
+			szemely.setWeight(70);
 			
-			szemely.Tti(szemely.weight, szemely.height);
-			szemely.Makeup(szemely.tti);
+			szemely.Tti(szemely.getWeight(), szemely.getHeight());
+			szemely.Makeup(szemely.getTti());
 			System.out.println(szemely.toString());
 		}
 }
