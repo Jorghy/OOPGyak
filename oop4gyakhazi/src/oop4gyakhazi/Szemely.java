@@ -65,7 +65,7 @@ public class Szemely {
 
 		@Override
 		public String toString() {
-			return name + ": " + height + ", " + weight + ", tti:" + tti + ", " + makeup;
+			return name + ": " + height + "m, " + weight + "kg, tti:" + tti + ", " + makeup;
 		}
 		
 		
