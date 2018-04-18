@@ -1,5 +1,6 @@
 package masodik_feladat.pont;
 public class Pont {
+	
 	private int x_koordinata;
 	private int y_koordinata;
 	

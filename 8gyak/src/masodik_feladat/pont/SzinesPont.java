@@ -23,12 +23,12 @@ public class SzinesPont extends Pont implements Szinezheto {
 		}
 		
 		@Override
-		public Color getAlapertelmezett(){
+		public Color getSzin(){
 			return alapertelmezett;
 		}
 		
 		@Override
-		public void setAlapertelmezett(Color szin){
+		public void setSzin(Color szin){
 			this.szin = szin;
 		}
 }
